@@ -1,13 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class TouchController : MonoBehaviour
 {
-    [SerializeField] Tile currentTile;
+    [SerializeField] Tile targetTile;
     [SerializeField] Tile lastTile;
 
+    [SerializeField] bool playerSelected = false;
+    Player player;
+
     Vector3 touchPosition;
+
+    private Tile[] allTiles;
+
+    private void Awake()
+    {
+        player = FindObjectOfType<Player>();
+
+        allTiles = FindObjectsOfType<Tile>() ?? new Tile[25];
+    }
 
     void Update()
     {
@@ -22,27 +35,94 @@ public class TouchController : MonoBehaviour
 
             if (hit.collider != null)
             {
-                if (hit.collider.gameObject.GetComponent<Tile>())
+                if (playerSelected == true)
                 {
-                    lastTile = currentTile;
-                    if (lastTile != null) //Change last tile color back to normal
+                    if (hit.collider.gameObject.GetComponent<Tile>())
                     {
-                        lastTile.spriteRenderer.color = Color.white;
+                        lastTile = targetTile;
+                        if (lastTile != null) //Change last tile color back to normal
+                        {
+                            lastTile.spriteRenderer.color = Color.white;
+                        }
+                        targetTile = hit.collider.gameObject.GetComponent<Tile>();
+                        targetTile.spriteRenderer.color = Color.grey;
                     }
-                    currentTile = hit.collider.gameObject.GetComponent<Tile>();
-                    currentTile.spriteRenderer.color = Color.grey;
+                }
+                else
+                {
+                    if (hit.collider.gameObject.GetComponent<Player>())
+                    {
+                        playerSelected = true;
+                    }
                 }
             }
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            lastTile = currentTile;
-            if (lastTile != null) //Change last tile color back to normal
+            if (playerSelected == true)
             {
-                lastTile.spriteRenderer.color = Color.white;
+                if (targetTile == null) return;
+                if (player.currentTile.coordinates == targetTile.coordinates) { return; }
+                lastTile = targetTile;
+                if (lastTile != null) //Change last tile color back to normal
+                {
+                    lastTile.spriteRenderer.color = Color.white;
+                }
+
+                Vector2Int playerCurrent = player.currentTile.coordinates;
+                List<Vector2Int> targetPositions = new List<Vector2Int>();
+                targetPositions.Add(playerCurrent);
+                for (int x = 1; x < 5; x++)
+                {
+                    if (targetTile.coordinates.x < targetPositions.Last<Vector2Int>().x)
+                    {
+                        Vector2Int nextTile = new Vector2Int(x - 1, playerCurrent.y);
+                        targetPositions.Add(nextTile);
+                    }
+                    else if (targetTile.coordinates.x > targetPositions.Last<Vector2Int>().x)
+                    {
+                        Vector2Int nextTile = new Vector2Int(x + 1, playerCurrent.y);
+                        targetPositions.Add(nextTile);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                for (int y = 1; y < 5; y++)
+                {
+                    if (targetTile.coordinates.y < targetPositions.Last<Vector2Int>().y)
+                    {
+                        Vector2Int nextTile = new Vector2Int(targetTile.coordinates.x, targetPositions.Last<Vector2Int>().y - 1);
+                        targetPositions.Add(nextTile);
+                    }
+                    else if (targetTile.coordinates.y > targetPositions.Last<Vector2Int>().y)
+                    {
+                        Vector2Int nextTile = new Vector2Int(targetTile.coordinates.x, targetPositions.Last<Vector2Int>().y + 1);
+                        targetPositions.Add(nextTile);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                List<Tile> tileSequence = new List<Tile>();
+                foreach (var item in targetPositions)
+                {
+                    for (int i = 0; i < allTiles.Length; i++)
+                    {
+                        if (allTiles[i].coordinates == item)
+                        {
+                            tileSequence.Add(allTiles[i]);
+                        }
+                    }
+                }
+
+                player.CreateMoveSequence(tileSequence);
+                targetTile = null;
+                playerSelected = false;
             }
-            currentTile = null;
         }
 #endif
     }
