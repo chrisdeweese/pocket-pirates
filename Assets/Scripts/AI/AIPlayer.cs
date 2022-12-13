@@ -42,7 +42,14 @@ public class AIPlayer : MonoBehaviour
 
     private void MoveToNearestAmmo()
     {
-        
+        Item[] items = FindObjectsOfType<Item>();
+        for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i].itemBase.itemType == ItemBase.ItemTypes.Ammo)
+            {
+                
+            }
+        }
     }
 
     private void MoveToNearestCannon()
