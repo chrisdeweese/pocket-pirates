@@ -58,6 +58,25 @@ public class TouchController : MonoBehaviour
             }
         }
 
+        //TEMP
+        if (Input.GetMouseButtonDown(1))
+        {
+            touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
+
+            RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
+
+            if (hit.collider != null)
+            {
+                if (hit.collider.gameObject.GetComponent<Tile>())
+                {
+                    Tile tempTile = hit.collider.gameObject.GetComponent<Tile>();
+                    tempTile.ToggleBreak(!tempTile.isBroken);
+                }
+            }
+        }
+                //END TEMP
         if (Input.GetMouseButtonUp(0))
         {
             if (playerSelected == true)

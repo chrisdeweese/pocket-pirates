@@ -12,4 +12,14 @@ public class Tile : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     [SerializeField] Sprite fixedSprite;
     [SerializeField] Sprite brokenSprite;
+
+    public void ToggleBreak(bool _isBroken)
+    {   
+        isBroken = _isBroken;
+
+        if (isBroken)
+            spriteRenderer.sprite = brokenSprite;
+        else
+            spriteRenderer.sprite = fixedSprite;
+    }
 }
