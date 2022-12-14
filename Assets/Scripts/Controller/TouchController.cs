@@ -25,7 +25,7 @@ public class TouchController : MonoBehaviour
     void Update()
     {
 #if UNITY_EDITOR
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -89,54 +89,68 @@ public class TouchController : MonoBehaviour
                     lastTile.spriteRenderer.color = Color.white;
                 }
 
-                Vector2Int playerCurrent = player.currentTile.coordinates;
-                List<Vector2Int> targetPositions = new List<Vector2Int>();
-                targetPositions.Add(playerCurrent);
-                for (int x = 1; x < 5; x++)
-                {
-                    if (targetTile.coordinates.x < targetPositions.Last<Vector2Int>().x)
-                    {
-                        Vector2Int nextTile = new Vector2Int(x - 1, playerCurrent.y);
-                        targetPositions.Add(nextTile);
-                    }
-                    else if (targetTile.coordinates.x > targetPositions.Last<Vector2Int>().x)
-                    {
-                        Vector2Int nextTile = new Vector2Int(x + 1, playerCurrent.y);
-                        targetPositions.Add(nextTile);
-                    }
-                    else
-                    {
-                        break;
-                    }
-                }
-                for (int y = 1; y < 5; y++)
-                {
-                    if (targetTile.coordinates.y < targetPositions.Last<Vector2Int>().y)
-                    {
-                        Vector2Int nextTile = new Vector2Int(targetTile.coordinates.x, targetPositions.Last<Vector2Int>().y - 1);
-                        targetPositions.Add(nextTile);
-                    }
-                    else if (targetTile.coordinates.y > targetPositions.Last<Vector2Int>().y)
-                    {
-                        Vector2Int nextTile = new Vector2Int(targetTile.coordinates.x, targetPositions.Last<Vector2Int>().y + 1);
-                        targetPositions.Add(nextTile);
-                    }
-                    else
-                    {
-                        break;
-                    }
-                }
+                Tile playerCurrent = player.currentTile;
                 List<Tile> tileSequence = new List<Tile>();
-                foreach (var item in targetPositions)
+
+                Vector2Int difference = targetTile.coordinates - playerCurrent.coordinates;
+                Vector2Int temp = playerCurrent.coordinates;//temp value for forloops
+
+                for (int i = 0; i < Mathf.Abs(difference.x); i++)
                 {
-                    for (int i = 0; i < allTiles.Length; i++)
+                    if (difference.x < 0)//Left
                     {
-                        if (allTiles[i].coordinates == item)
+                        for (int b = 0; b < allTiles.Length; b++)
                         {
-                            tileSequence.Add(allTiles[i]);
+                            if (allTiles[b].coordinates == new Vector2Int(temp.x - 1, temp.y))
+                            {
+                                tileSequence.Add(allTiles[b]);
+                                temp.x = allTiles[b].coordinates.x;
+                                break;
+                            }
+                        }
+                    }
+                    else//right
+                    {
+                        for (int b = 0; b < allTiles.Length; b++)
+                        {
+                            if (allTiles[b].coordinates == new Vector2Int(temp.x + 1, temp.y))
+                            {
+                                tileSequence.Add(allTiles[b]);
+                                temp.x = allTiles[b].coordinates.x;
+                                break;
+                            }
                         }
                     }
                 }
+
+                for (int i = 0; i < Mathf.Abs(difference.y); i++)
+                {
+                    if (difference.y < 0)//down
+                    {
+                        for (int b = 0; b < allTiles.Length; b++)
+                        {
+                            if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y - 1))
+                            {
+                                tileSequence.Add(allTiles[b]);
+                                temp.y = allTiles[b].coordinates.y;
+                                break;
+                            }
+                        }
+                    }
+                    else//up
+                    {
+                        for (int b = 0; b < allTiles.Length; b++)
+                        {
+                            if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y + 1))
+                            {
+                                tileSequence.Add(allTiles[b]);
+                                temp.y = allTiles[b].coordinates.y;
+                                break;
+                            }
+                        }
+                    }
+                }
+                tileSequence.Add(targetTile);
 
                 player.CreateMoveSequence(tileSequence);
                 targetTile = null;

@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     {
         moveSequence.Clear();
         moveSequence = _tileSequence;  
-        moveSequence.RemoveAt(0);//Stops delay
+       // moveSequence.RemoveAt(0);//Stops delay
         Move();
     }
 }
