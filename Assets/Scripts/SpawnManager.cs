@@ -38,6 +38,7 @@ public class SpawnManager : MonoBehaviour
         if (shipId == 1)
         {
             Player newPlayer = Instantiate(player, _gameManager.playerTiles[randomPos].transform.position, Quaternion.identity).GetComponent<Player>();
+            newPlayer.currentTile = _gameManager.playerTiles[randomPos];
             _gameManager.players.Add(newPlayer);
         }
         else if (shipId == 2)
@@ -66,10 +67,10 @@ public class SpawnManager : MonoBehaviour
         if (shipId == 1)
         {
             GameObject newAmmo = Instantiate(ammo, _gameManager.playerTiles[randomPos].transform.position, Quaternion.identity);
-            if (newAmmo.GetComponent<CannonBall>() != null)
-            {
-                _gameManager.cannonBalls.Add(newAmmo.GetComponent<CannonBall>());
-            }
+            // if (newAmmo.GetComponent<CannonBall>() != null)
+            // {
+            //     _gameManager.cannonBalls.Add(newAmmo.GetComponent<CannonBall>());
+            // }
         }
         else if (shipId == 2)
         {
