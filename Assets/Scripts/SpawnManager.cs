@@ -65,8 +65,11 @@ public class SpawnManager : MonoBehaviour
         int randomPos = Random.Range(0, 25);
         if (shipId == 1)
         {
-            CannonBall newAmmo = Instantiate(ammo, _gameManager.playerTiles[randomPos].transform.position, Quaternion.identity).GetComponent<CannonBall>();
-            _gameManager.cannonBalls.Add(newAmmo);
+            GameObject newAmmo = Instantiate(ammo, _gameManager.playerTiles[randomPos].transform.position, Quaternion.identity);
+            if (newAmmo.GetComponent<CannonBall>() != null)
+            {
+                _gameManager.cannonBalls.Add(newAmmo.GetComponent<CannonBall>());
+            }
         }
         else if (shipId == 2)
         {
