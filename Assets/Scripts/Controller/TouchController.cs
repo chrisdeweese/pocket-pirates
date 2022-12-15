@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
 public class TouchController : MonoBehaviour
 {
@@ -9,7 +8,7 @@ public class TouchController : MonoBehaviour
     [SerializeField] Tile lastTile;
 
     [SerializeField] bool playerSelected = false;
-    Player player;
+    public Player player;
 
     Vector3 touchPosition;
 
@@ -17,22 +16,40 @@ public class TouchController : MonoBehaviour
 
     private void Awake()
     {
-        player = FindObjectOfType<Player>();
-
         allTiles = FindObjectsOfType<Tile>() ?? new Tile[25];
     }
 
     void Update()
     {
 #if UNITY_EDITOR
+
+        touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
+
+        RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
+
+        //Highlight Tile on Hover
+        //if (!Input.GetMouseButton(0))
+        //{
+        //    if (hit.collider != null)
+        //    {
+        //        if (hit.collider.gameObject.GetComponent<Tile>())
+        //        {
+        //            targetTile = hit.collider.gameObject.GetComponent<Tile>();
+        //            targetTile.spriteRenderer.color = Color.grey;
+        //            targetTile = lastTile;
+        //            targetTile = null;
+        //        }
+        //    }
+        //    if (lastTile != null)
+        //    {
+        //        lastTile.spriteRenderer.color = Color.white;
+        //    }
+        //}
+
         if (Input.GetMouseButtonDown(0))
         {
-            touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
-
             if (hit.collider != null)
             {
                 if (playerSelected == true)
@@ -45,13 +62,95 @@ public class TouchController : MonoBehaviour
                             lastTile.spriteRenderer.color = Color.white;
                         }
                         targetTile = hit.collider.gameObject.GetComponent<Tile>();
-                        targetTile.spriteRenderer.color = Color.grey;
+                        targetTile.spriteRenderer.color = Color.black;
+
+                        //Create Movement Sequence
+                        #region
+                        if (targetTile == null) return;
+                        if (player.currentTile.coordinates == targetTile.coordinates) { return; }
+                        lastTile = targetTile;
+                        if (lastTile != null) //Change last tile color back to normal
+                        {
+                            lastTile.spriteRenderer.color = Color.white;
+                        }
+
+                        Tile playerCurrent = player.currentTile;
+                        List<Tile> tileSequence = new List<Tile>();
+
+                        Vector2Int difference = targetTile.coordinates - playerCurrent.coordinates;
+                        Vector2Int temp = playerCurrent.coordinates;//temp value for forloops
+
+                        for (int i = 0; i < Mathf.Abs(difference.x); i++)
+                        {
+                            if (difference.x < 0)//Left
+                            {
+                                for (int b = 0; b < allTiles.Length; b++)
+                                {
+                                    if (allTiles[b].coordinates == new Vector2Int(temp.x - 1, temp.y))
+                                    {
+                                        tileSequence.Add(allTiles[b]);
+                                        temp.x = allTiles[b].coordinates.x;
+                                        break;
+                                    }
+                                }
+                            }
+                            else//right
+                            {
+                                for (int b = 0; b < allTiles.Length; b++)
+                                {
+                                    if (allTiles[b].coordinates == new Vector2Int(temp.x + 1, temp.y))
+                                    {
+                                        tileSequence.Add(allTiles[b]);
+                                        temp.x = allTiles[b].coordinates.x;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+
+                        for (int i = 0; i < Mathf.Abs(difference.y); i++)
+                        {
+                            if (difference.y < 0)//down
+                            {
+                                for (int b = 0; b < allTiles.Length; b++)
+                                {
+                                    if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y - 1))
+                                    {
+                                        tileSequence.Add(allTiles[b]);
+                                        temp.y = allTiles[b].coordinates.y;
+                                        break;
+                                    }
+                                }
+                            }
+                            else//up
+                            {
+                                for (int b = 0; b < allTiles.Length; b++)
+                                {
+                                    if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y + 1))
+                                    {
+                                        tileSequence.Add(allTiles[b]);
+                                        temp.y = allTiles[b].coordinates.y;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                        tileSequence.Add(targetTile);
+
+                        player.CreateMoveSequence(tileSequence);
+                        targetTile = null;
+                        playerSelected = false;
+                        #endregion
                     }
                 }
                 else
                 {
                     if (hit.collider.gameObject.GetComponent<Player>())
                     {
+                        if (player == null)
+                        {
+                            player = hit.collider.gameObject.GetComponent<Player>();
+                        }
                         playerSelected = true;
                     }
                 }
@@ -61,12 +160,6 @@ public class TouchController : MonoBehaviour
         //TEMP
         if (Input.GetMouseButtonDown(1))
         {
-            touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
-
             if (hit.collider != null)
             {
                 if (hit.collider.gameObject.GetComponent<Tile>())
@@ -76,87 +169,7 @@ public class TouchController : MonoBehaviour
                 }
             }
         }
-                //END TEMP
-        if (Input.GetMouseButtonUp(0))
-        {
-            if (playerSelected == true)
-            {
-                if (targetTile == null) return;
-                if (player.currentTile.coordinates == targetTile.coordinates) { return; }
-                lastTile = targetTile;
-                if (lastTile != null) //Change last tile color back to normal
-                {
-                    lastTile.spriteRenderer.color = Color.white;
-                }
-
-                Tile playerCurrent = player.currentTile;
-                List<Tile> tileSequence = new List<Tile>();
-
-                Vector2Int difference = targetTile.coordinates - playerCurrent.coordinates;
-                Vector2Int temp = playerCurrent.coordinates;//temp value for forloops
-
-                for (int i = 0; i < Mathf.Abs(difference.x); i++)
-                {
-                    if (difference.x < 0)//Left
-                    {
-                        for (int b = 0; b < allTiles.Length; b++)
-                        {
-                            if (allTiles[b].coordinates == new Vector2Int(temp.x - 1, temp.y))
-                            {
-                                tileSequence.Add(allTiles[b]);
-                                temp.x = allTiles[b].coordinates.x;
-                                break;
-                            }
-                        }
-                    }
-                    else//right
-                    {
-                        for (int b = 0; b < allTiles.Length; b++)
-                        {
-                            if (allTiles[b].coordinates == new Vector2Int(temp.x + 1, temp.y))
-                            {
-                                tileSequence.Add(allTiles[b]);
-                                temp.x = allTiles[b].coordinates.x;
-                                break;
-                            }
-                        }
-                    }
-                }
-
-                for (int i = 0; i < Mathf.Abs(difference.y); i++)
-                {
-                    if (difference.y < 0)//down
-                    {
-                        for (int b = 0; b < allTiles.Length; b++)
-                        {
-                            if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y - 1))
-                            {
-                                tileSequence.Add(allTiles[b]);
-                                temp.y = allTiles[b].coordinates.y;
-                                break;
-                            }
-                        }
-                    }
-                    else//up
-                    {
-                        for (int b = 0; b < allTiles.Length; b++)
-                        {
-                            if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y + 1))
-                            {
-                                tileSequence.Add(allTiles[b]);
-                                temp.y = allTiles[b].coordinates.y;
-                                break;
-                            }
-                        }
-                    }
-                }
-                tileSequence.Add(targetTile);
-
-                player.CreateMoveSequence(tileSequence);
-                targetTile = null;
-                playerSelected = false;
-            }
-        }
+        //END TEMP
 #endif
     }
 }
