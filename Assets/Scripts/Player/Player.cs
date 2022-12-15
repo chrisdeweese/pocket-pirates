@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    public Player(Tile startingTile, Transform tileTransform)
+    public Player(Tile startingTile)
     {
         currentTile = startingTile;
     }
