@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: TEST
   m_EditorClassIdentifier: 
   playerName: TEST
-  speed: 1
+  moveSpeed: 0.5
+  repairSpeed: 0.14

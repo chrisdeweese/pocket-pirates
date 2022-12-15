@@ -10,11 +10,17 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerStats playerStats;
     public Tile currentTile;
     public List<Tile> moveSequence;
+    [SerializeField] float repairAmount = 1;
 
     public void Move()
     {
         currentTile = moveSequence[0];
-        playerTransform.DOMove(moveSequence[0].transform.position, playerStats.speed).OnComplete(CheckMove);
+        playerTransform.DOMove(moveSequence[0].transform.position, playerStats.moveSpeed).OnComplete(CheckMove);
+    }
+
+    public void ContinueMove()
+    {
+        playerTransform.DOMove(moveSequence[0].transform.position, playerStats.moveSpeed).OnComplete(CheckMove);
     }
 
     void CheckMove()
@@ -27,7 +33,15 @@ public class Player : MonoBehaviour
         else
         {
             //Repair
+            DOTween.To(() =>repairAmount, x => repairAmount = x, 0, playerStats.repairSpeed).OnComplete(Repair);
         }
+    }
+
+    void Repair()
+    {
+        repairAmount = 1;
+        currentTile.ToggleBreak(false);
+        ContinueMove();
     }
 
     public Player(Tile startingTile)
