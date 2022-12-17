@@ -5,9 +5,19 @@ using System.Linq;
 
 public class TouchController : MonoBehaviour
 {
+    [Header("Movement")]
+    //Movement Tiles
     [SerializeField] Tile targetTile;
     [SerializeField] Tile lastTile;
 
+    [Header("Highlight")]
+    //Tile for hover highlight
+    [SerializeField] Tile tileToHighlight;
+
+    //Colors for highlight
+    [SerializeField] Color highlightColor;
+
+    [Header("Other")]
     [SerializeField] bool playerSelected = false;
     Player player;
 
@@ -25,14 +35,29 @@ public class TouchController : MonoBehaviour
     void Update()
     {
 #if UNITY_EDITOR
+        touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
+
+        RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
+        //Hover Highlight
+        if (hit.collider != null)
+        {
+            if (hit.collider.gameObject.GetComponent<Tile>())
+            {
+                if (tileToHighlight != null)
+                {
+                    tileToHighlight.spriteRenderer.color = Color.white;
+                }
+
+                tileToHighlight = hit.collider.gameObject.GetComponent<Tile>();
+                tileToHighlight.spriteRenderer.color = highlightColor;
+            }
+        }
+
+        //Movement Select
         if (Input.GetMouseButtonDown(0))
         {
-            touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            Vector2 touchPosWorld2D = new Vector2(touchPosition.x, touchPosition.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
-
             if (hit.collider != null)
             {
                 if (playerSelected == true)
