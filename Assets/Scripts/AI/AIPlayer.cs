@@ -8,6 +8,7 @@ public class AIPlayer : MonoBehaviour
 {
     private Vector2 _location;
     private float _timer;
+    private bool _isProcessing;
 
     private void Update()
     {

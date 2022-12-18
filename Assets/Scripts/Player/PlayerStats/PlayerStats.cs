@@ -6,5 +6,6 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     public string playerName;
-    public float speed = 1f;
+    public float moveSpeed = 1f;
+    public float repairSpeed = 1f;
 }
