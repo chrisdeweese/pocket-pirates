@@ -44,7 +44,7 @@ public class TouchController : MonoBehaviour
             {
                 if (tileToHighlight != null)
                 {
-                    tileToHighlight.spriteRenderer.color = Color.white;
+                    tileToHighlight.spriteRenderer.color = tileToHighlight.tileColor; 
                 }
 
                 tileToHighlight = hit.collider.gameObject.GetComponent<Tile>();
@@ -64,7 +64,7 @@ public class TouchController : MonoBehaviour
                         lastTile = targetTile;
                         if (lastTile != null) //Change last tile color back to normal
                         {
-                            lastTile.spriteRenderer.color = Color.white;
+                            lastTile.spriteRenderer.color = lastTile.tileColor;
                         }
                         targetTile = hit.collider.gameObject.GetComponent<Tile>();
                         targetTile.spriteRenderer.color = Color.black;
@@ -76,7 +76,7 @@ public class TouchController : MonoBehaviour
                         lastTile = targetTile;
                         if (lastTile != null) //Change last tile color back to normal
                         {
-                            lastTile.spriteRenderer.color = Color.white;
+                            lastTile.spriteRenderer.color = lastTile.tileColor;
                         }
 
                         Tile playerCurrent = player.currentTile;

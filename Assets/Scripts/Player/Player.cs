@@ -37,7 +37,6 @@ public class Player : MonoBehaviour
     {
         if (currentTile.isBroken == false)
         {
-            repairSliderOBJ.SetActive(false);
             moveSequence.RemoveAt(0);
             Move();
         }
@@ -56,9 +55,10 @@ public class Player : MonoBehaviour
 
     void Repair()
     {
-        repairAmount = 0;
         repairSlider.value = repairAmount;
         currentTile.ToggleBreak(false);
+        repairSliderOBJ.SetActive(false);
+        repairAmount = 0;
         ContinueMove();
     }
 
