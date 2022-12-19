@@ -113,6 +113,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -181,6 +197,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -253,6 +285,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -321,6 +369,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -393,6 +457,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -461,6 +541,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -533,6 +629,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -601,6 +713,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -673,6 +801,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -741,6 +885,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -813,6 +973,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -881,6 +1057,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -953,12 +1145,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.49411768
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.90196085
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
@@ -1021,6 +1241,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -1093,6 +1329,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1161,6 +1413,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -1233,6 +1501,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1301,6 +1585,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -1373,6 +1673,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -1441,6 +1757,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -1513,6 +1845,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1581,6 +1929,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
@@ -1653,6 +2017,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -1723,6 +2103,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -1791,6 +2187,22 @@ PrefabInstance:
     - target: {fileID: 3376083784359359992, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.b
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.g
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: tileColor.r
+      value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x

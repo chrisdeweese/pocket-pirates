@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 using System;
 
 public class Player : MonoBehaviour
@@ -10,7 +11,16 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerStats playerStats;
     public Tile currentTile;
     public List<Tile> moveSequence;
-    [SerializeField] float repairAmount = 1;
+
+    [Header("Repair")]
+    [SerializeField] float repairAmount = 0;
+    private GameObject repairSliderOBJ;
+    [SerializeField] Slider repairSlider;
+
+    private void Awake()
+    {
+        repairSliderOBJ = repairSlider.gameObject; 
+    }
 
     public void Move()
     {
@@ -33,14 +43,22 @@ public class Player : MonoBehaviour
         else
         {
             //Repair
-            DOTween.To(() =>repairAmount, x => repairAmount = x, 0, playerStats.repairSpeed).OnComplete(Repair);
+            repairSliderOBJ.SetActive(true);
+            DOTween.To(() =>repairAmount, x => repairAmount = x, 1, playerStats.repairSpeed).OnComplete(Repair);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        repairSlider.value = repairAmount;
     }
 
     void Repair()
     {
-        repairAmount = 1;
+        repairSlider.value = repairAmount;
         currentTile.ToggleBreak(false);
+        repairSliderOBJ.SetActive(false);
+        repairAmount = 0;
         ContinueMove();
     }
 

@@ -12,6 +12,7 @@ public class Tile : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     [SerializeField] Sprite fixedSprite;
     [SerializeField] Sprite brokenSprite;
+    public Color tileColor;
 
     public void ToggleBreak(bool _isBroken)
     {   

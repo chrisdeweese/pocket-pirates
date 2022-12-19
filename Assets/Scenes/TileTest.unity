@@ -283,7 +283,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTile: {fileID: 0}
   lastTile: {fileID: 0}
+  tileToHighlight: {fileID: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   playerSelected: 0
+  player: {fileID: 0}
 --- !u!4 &1690642943
 Transform:
   m_ObjectHideFlags: 0
@@ -357,6 +360,34 @@ PrefabInstance:
     - target: {fileID: 208169166629927550, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2954346808527254792, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2954346808527254792, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130727484674027488, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757625845764410451, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757625845764410451, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757625845764410451, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959047508833960154, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 135849850624cee4c83e6446c72d5b64, type: 3}
