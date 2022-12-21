@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
+    LoadAssetBundles assetBundleLoader;
+
     public Vector2Int coordinates;
     public Inventory inventory;
     public bool isBroken = false;
@@ -13,6 +15,21 @@ public class Tile : MonoBehaviour
     [SerializeField] Sprite fixedSprite;
     [SerializeField] Sprite brokenSprite;
     public Color tileColor;
+
+    private void Awake()
+    {
+        assetBundleLoader = FindObjectOfType<LoadAssetBundles>();
+        fixedSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>("temp_wood");
+        brokenSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>("temp_wood_broken");
+        if (!isBroken)
+        {
+            spriteRenderer.sprite = fixedSprite;
+        }
+        else
+        {
+            spriteRenderer.sprite = brokenSprite;
+        }
+    }
 
     public void ToggleBreak(bool _isBroken)
     {   

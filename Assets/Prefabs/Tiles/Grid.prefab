@@ -113,6 +113,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -129,6 +133,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -136,9 +144,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (1,5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -199,6 +219,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -215,6 +239,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -222,9 +250,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (1,4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -285,6 +325,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -301,6 +345,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -308,9 +356,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (5,5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -371,6 +431,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -387,6 +451,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -394,9 +462,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (1,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -457,6 +537,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -473,6 +557,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -480,9 +568,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (4,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -543,6 +643,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -559,6 +663,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -566,9 +674,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (3,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -629,6 +749,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -645,6 +769,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -652,9 +780,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (4,5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -715,6 +855,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -731,6 +875,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -738,9 +886,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (5,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -801,6 +961,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -817,6 +981,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -824,9 +992,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (1,2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -887,6 +1067,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -903,6 +1087,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -910,9 +1098,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (3,5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -973,6 +1173,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -989,6 +1193,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -996,9 +1204,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (4,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1059,6 +1279,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1075,6 +1299,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -1082,9 +1310,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (4,4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1145,6 +1385,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1161,6 +1405,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1168,6 +1416,10 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Color.b
       value: 0.12941177
@@ -1183,6 +1435,14 @@ PrefabInstance:
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (2,5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1243,6 +1503,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1259,6 +1523,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1266,9 +1534,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (2,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1329,6 +1609,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1345,6 +1629,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1352,9 +1640,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (2,4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1415,6 +1715,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1431,6 +1735,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 1
       objectReference: {fileID: 0}
@@ -1438,9 +1746,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (1,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1501,6 +1821,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1517,6 +1841,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1524,9 +1852,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (2,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1587,6 +1927,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1603,6 +1947,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -1610,9 +1958,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (3,2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1673,6 +2033,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1689,6 +2053,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -1696,9 +2064,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (3,4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1759,6 +2139,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1775,6 +2159,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 3
       objectReference: {fileID: 0}
@@ -1782,9 +2170,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (3,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1845,6 +2245,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1861,6 +2265,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 2
       objectReference: {fileID: 0}
@@ -1868,9 +2276,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (2,2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -1931,6 +2351,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -1947,6 +2371,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -1954,9 +2382,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (5,4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -2017,6 +2457,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -2033,6 +2477,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -2040,9 +2488,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (5,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -2103,6 +2563,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -2119,6 +2583,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 5
       objectReference: {fileID: 0}
@@ -2126,9 +2594,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (5,2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
@@ -2189,6 +2669,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: fixedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: tileColor.a
       value: 1
       objectReference: {fileID: 0}
@@ -2205,6 +2689,10 @@ PrefabInstance:
       value: 0.9019608
       objectReference: {fileID: 0}
     - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: brokenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+    - target: {fileID: 3376083784359359994, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: coordinates.x
       value: 4
       objectReference: {fileID: 0}
@@ -2212,9 +2700,21 @@ PrefabInstance:
       propertyPath: coordinates.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3376083784359359995, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
     - target: {fileID: 3376083784359359999, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
       propertyPath: m_Name
       value: Tile (4,2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925663406944559392, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e5868a8664ab7d4ebf15a5e5d84a2b7, type: 3}
