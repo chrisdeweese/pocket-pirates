@@ -585,7 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 903f1433fc2adbd4399af8dd337a1641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: C:\Users\gageg\Documents\My Games\AssetBundles/tile_testwood
+  playerTileBundle: {fileID: 0}
+  assetBundlePath: C:\Users\gageg\AppData\LocalLow\Modern Programming\Pocket Pirates\AssetBundles\tile_testwood
 --- !u!4 &528241600
 Transform:
   m_ObjectHideFlags: 0

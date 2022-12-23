@@ -16,7 +16,7 @@ public class Tile : MonoBehaviour
     [SerializeField] Sprite brokenSprite;
     public Color tileColor;
 
-    private void Awake()
+    private void Start()
     {
         assetBundleLoader = FindObjectOfType<LoadAssetBundles>();
         fixedSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>("temp_wood");

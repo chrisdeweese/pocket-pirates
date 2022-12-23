@@ -9,7 +9,7 @@ public class BundleBuilder : Editor
     [MenuItem("Assets/Build AssetBudles")]
     static void BuildAllAssetBundles()
     {
-        string bundleFolderPath = Path.Combine("C:/Users/gageg/Documents/My Games/", "AssetBundles");
+        string bundleFolderPath = Path.Combine(Application.persistentDataPath, "AssetBundles");
         if (!Directory.Exists(bundleFolderPath))
         {
             Directory.CreateDirectory(bundleFolderPath);
