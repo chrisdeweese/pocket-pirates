@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e19107a301091b4da40bdd93aeb0263
+guid: 7cb2d76360ed5b54d977da16d20f6e2c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,5 +119,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: tile_testwood
+  assetBundleName: tile_stone
   assetBundleVariant: 
