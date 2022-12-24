@@ -9,4 +9,17 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void OpenScene(int _buildIndex)
+    {
+        SceneManager.LoadScene(_buildIndex);
+    }
+
+#if UNITY_EDITOR
+    //Saves player pref for what tileset is saved  THIS IS TEMPORARY
+    public void SaveString(string _key)
+    {
+        PlayerPrefs.SetString("SelectedTile", _key);
+    }
+#endif
 }

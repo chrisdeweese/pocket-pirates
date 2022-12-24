@@ -19,8 +19,8 @@ public class Tile : MonoBehaviour
     private void Start()
     {
         assetBundleLoader = FindObjectOfType<LoadAssetBundles>();
-        fixedSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>("temp_wood");
-        brokenSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>("temp_wood_broken");
+        fixedSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>(assetBundleLoader.tileKey + "_repaired");
+        brokenSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>(assetBundleLoader.tileKey + "_broken");
         if (!isBroken)
         {
             spriteRenderer.sprite = fixedSprite;

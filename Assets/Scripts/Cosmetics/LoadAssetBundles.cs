@@ -7,13 +7,20 @@ public class LoadAssetBundles : MonoBehaviour
 {
     //Asset bundle that has the players currently selected tile sprites
     public AssetBundle playerTileBundle;
-    string assetBundlePath;
+    string tileBundlePath;
+    public string tileKey;
 
     void Awake()
     {
-        assetBundlePath = Application.persistentDataPath + @"\AssetBundles\tile_testwood";
-        Debug.Log(assetBundlePath);
-        LoadAssetBundle(assetBundlePath);
+        GetKeys();
+        tileBundlePath = Application.persistentDataPath + @"\AssetBundles\" + tileKey;
+        Debug.Log(tileBundlePath);
+        LoadAssetBundle(tileBundlePath);
+    }
+
+    void GetKeys()
+    {
+        tileKey = PlayerPrefs.GetString("SelectedTile");
     }
 
     void LoadAssetBundle(string bundlePath)
