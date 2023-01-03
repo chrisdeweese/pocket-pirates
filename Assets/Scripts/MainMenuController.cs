@@ -21,5 +21,10 @@ public class MainMenuController : MonoBehaviour
     {
         PlayerPrefs.SetString("SelectedTile", _key);
     }
+
+    public void SavePlayerString(string _key)
+    {
+        PlayerPrefs.SetString("SelectedPlayerSkin", _key);
+    }
 #endif
 }

@@ -7,8 +7,10 @@ using System;
 
 public class Player : MonoBehaviour
 {
+    private LoadAssetBundles assetBundleLoader;
     [SerializeField] Transform playerTransform;
     [SerializeField] PlayerStats playerStats;
+    [SerializeField] SpriteRenderer spriteRenderer;
     public Tile currentTile;
     public List<Tile> moveSequence;
 
@@ -19,7 +21,13 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        assetBundleLoader = FindObjectOfType<LoadAssetBundles>();
         repairSliderOBJ = repairSlider.gameObject; 
+    }
+
+    private void Start()
+    {
+        spriteRenderer.sprite = assetBundleLoader.playerSkinBundle.LoadAsset<Sprite>(assetBundleLoader.playerKey);
     }
 
     public void Move()

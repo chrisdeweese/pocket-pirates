@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 208169166629927547}
   playerStats: {fileID: 11400000, guid: db8526f1e4417f146bddbe1a7567c31b, type: 2}
+  spriteRenderer: {fileID: 208169166629927544}
   currentTile: {fileID: 0}
   moveSequence: []
   repairAmount: 0

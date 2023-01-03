@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        //SET A DEFAULT TILE SO WE DONT HAVE INVISIBLE TILES WE WILL HAVE TO CHANGE THE DEFAULT LATER
+        //SET A DEFAULT Cosmetic SO WE DONT HAVE INVISIBLE TILES WE WILL HAVE TO CHANGE THE DEFAULT LATER
+        PlayerPrefs.GetString("SelectedPlayerSkin", "player_default");
         PlayerPrefs.GetString("SelectedTile", "tile_wood");
     }
 
