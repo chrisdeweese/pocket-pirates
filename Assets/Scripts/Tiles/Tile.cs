@@ -9,6 +9,7 @@ public class Tile : MonoBehaviour
     public Vector2Int coordinates;
     public Inventory inventory;
     public bool isBroken = false;
+    public int team = 0;
 
     [Header("Sprites")]
     public SpriteRenderer spriteRenderer;
@@ -19,8 +20,19 @@ public class Tile : MonoBehaviour
     private void Start()
     {
         assetBundleLoader = FindObjectOfType<LoadAssetBundles>();
-        fixedSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>(assetBundleLoader.tileKey + "_repaired");
-        brokenSprite = assetBundleLoader.playerTileBundle.LoadAsset<Sprite>(assetBundleLoader.tileKey + "_broken");
+        if (team == 0)
+        {
+            Debug.Log(assetBundleLoader.playerTileBundle0.LoadAsset<Sprite>(assetBundleLoader.tileKey0 + "_repaired"));
+            fixedSprite = assetBundleLoader.playerTileBundle0.LoadAsset<Sprite>(assetBundleLoader.tileKey0 + "_repaired");
+            brokenSprite = assetBundleLoader.playerTileBundle0.LoadAsset<Sprite>(assetBundleLoader.tileKey0 + "_broken");
+        }
+        else
+        {
+            Debug.Log(assetBundleLoader.playerTileBundle0.LoadAsset<Sprite>(assetBundleLoader.tileKey0 + "_repaired"));
+            fixedSprite = assetBundleLoader.playerTileBundle1.LoadAsset<Sprite>(assetBundleLoader.tileKey1 + "_repaired");
+            brokenSprite = assetBundleLoader.playerTileBundle1.LoadAsset<Sprite>(assetBundleLoader.tileKey1 + "_broken");
+        }
+
         if (!isBroken)
         {
             spriteRenderer.sprite = fixedSprite;
