@@ -19,15 +19,11 @@ public class TouchController : MonoBehaviour
     [Header("Other")]
     [SerializeField] bool playerSelected = false;
     public Player player;
+    public int team = 0;
 
     Vector3 touchPosition;
 
-    private Tile[] allTiles;
-
-    private void Awake()
-    {
-        allTiles = FindObjectsOfType<Tile>() ?? new Tile[25];
-    }
+    [SerializeField] Tile[] myTiles;
 
     void Update()
     {
@@ -42,6 +38,8 @@ public class TouchController : MonoBehaviour
         {
             if (hit.collider.gameObject.GetComponent<Tile>())
             {
+                if (hit.collider.gameObject.GetComponent<Tile>().team != team) { return; }//If hovering over a tile that isn't your teams do nothing
+
                 if (tileToHighlight != null)
                 {
                     tileToHighlight.spriteRenderer.color = tileToHighlight.tileColor; 
@@ -61,6 +59,8 @@ public class TouchController : MonoBehaviour
                 {
                     if (hit.collider.gameObject.GetComponent<Tile>())
                     {
+                        if (hit.collider.gameObject.GetComponent<Tile>().team != team) { return; }//If hovering over a tile that isn't your teams do nothing
+
                         lastTile = targetTile;
                         if (lastTile != null) //Change last tile color back to normal
                         {
@@ -89,24 +89,24 @@ public class TouchController : MonoBehaviour
                         {
                             if (difference.x < 0)//Left
                             {
-                                for (int b = 0; b < allTiles.Length; b++)
+                                for (int b = 0; b < myTiles.Length; b++)
                                 {
-                                    if (allTiles[b].coordinates == new Vector2Int(temp.x - 1, temp.y))
+                                    if (myTiles[b].coordinates == new Vector2Int(temp.x - 1, temp.y))
                                     {
-                                        tileSequence.Add(allTiles[b]);
-                                        temp.x = allTiles[b].coordinates.x;
+                                        tileSequence.Add(myTiles[b]);
+                                        temp.x = myTiles[b].coordinates.x;
                                         break;
                                     }
                                 }
                             }
                             else//right
                             {
-                                for (int b = 0; b < allTiles.Length; b++)
+                                for (int b = 0; b < myTiles.Length; b++)
                                 {
-                                    if (allTiles[b].coordinates == new Vector2Int(temp.x + 1, temp.y))
+                                    if (myTiles[b].coordinates == new Vector2Int(temp.x + 1, temp.y))
                                     {
-                                        tileSequence.Add(allTiles[b]);
-                                        temp.x = allTiles[b].coordinates.x;
+                                        tileSequence.Add(myTiles[b]);
+                                        temp.x = myTiles[b].coordinates.x;
                                         break;
                                     }
                                 }
@@ -117,24 +117,24 @@ public class TouchController : MonoBehaviour
                         {
                             if (difference.y < 0)//down
                             {
-                                for (int b = 0; b < allTiles.Length; b++)
+                                for (int b = 0; b < myTiles.Length; b++)
                                 {
-                                    if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y - 1))
+                                    if (myTiles[b].coordinates == new Vector2Int(temp.x, temp.y - 1))
                                     {
-                                        tileSequence.Add(allTiles[b]);
-                                        temp.y = allTiles[b].coordinates.y;
+                                        tileSequence.Add(myTiles[b]);
+                                        temp.y = myTiles[b].coordinates.y;
                                         break;
                                     }
                                 }
                             }
                             else//up
                             {
-                                for (int b = 0; b < allTiles.Length; b++)
+                                for (int b = 0; b < myTiles.Length; b++)
                                 {
-                                    if (allTiles[b].coordinates == new Vector2Int(temp.x, temp.y + 1))
+                                    if (myTiles[b].coordinates == new Vector2Int(temp.x, temp.y + 1))
                                     {
-                                        tileSequence.Add(allTiles[b]);
-                                        temp.y = allTiles[b].coordinates.y;
+                                        tileSequence.Add(myTiles[b]);
+                                        temp.y = myTiles[b].coordinates.y;
                                         break;
                                     }
                                 }
@@ -156,7 +156,15 @@ public class TouchController : MonoBehaviour
                         {
                             player = hit.collider.gameObject.GetComponent<Player>();
                         }
+                        if (player.team == team)
+                        {
                         playerSelected = true;
+                        }
+                        else
+                        {
+                            Debug.Log("Not Your Team");
+                        }
+
                     }
                 }
             }

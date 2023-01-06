@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    [Header("DEBUG")]
+    public int selectedTeam = 0;
+
     public void PlayGame_OnClick()
     {
         SceneManager.LoadScene("Game");
@@ -19,12 +22,17 @@ public class MainMenuController : MonoBehaviour
     //Saves player pref for what tileset is saved  THIS IS TEMPORARY
     public void SaveString(string _key)
     {
-        PlayerPrefs.SetString("SelectedTile", _key);
+        PlayerPrefs.SetString("SelectedTile" + selectedTeam, _key);
     }
 
     public void SavePlayerString(string _key)
     {
-        PlayerPrefs.SetString("SelectedPlayerSkin", _key);
+        PlayerPrefs.SetString("SelectedPlayerSkin" + selectedTeam, _key);
+    }
+
+    public void SetTeam(int _team = 0)
+    {
+        selectedTeam = _team;
     }
 #endif
 }

@@ -11,12 +11,6 @@ public class GameManager : MonoBehaviour
     public List<CannonController> cannons;
     public List<CannonBall> cannonBalls;
 
-    private void Awake()
-    {
-        //SET A DEFAULT Cosmetic SO WE DONT HAVE INVISIBLE TILES WE WILL HAVE TO CHANGE THE DEFAULT LATER
-        PlayerPrefs.GetString("SelectedPlayerSkin", "player_default");
-        PlayerPrefs.GetString("SelectedTile", "tile_wood");
-    }
 
     private void Start()
     {

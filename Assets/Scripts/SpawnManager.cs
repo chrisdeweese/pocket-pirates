@@ -27,7 +27,7 @@ public class SpawnManager : MonoBehaviour
         SpawnAmmo(1);
 
         // Spawns for the AI
-        //SpawnPlayer(2);
+        SpawnPlayer(2);
         //SpawnCannon(2);
         //SpawnAmmo(2);
     }
@@ -38,12 +38,16 @@ public class SpawnManager : MonoBehaviour
         if (shipId == 1)
         {
             Player newPlayer = Instantiate(player, _gameManager.playerTiles[randomPos].transform.position, Quaternion.identity).GetComponent<Player>();
+            newPlayer.team = 0;
             newPlayer.currentTile = _gameManager.playerTiles[randomPos];
             _gameManager.players.Add(newPlayer);
         }
         else if (shipId == 2)
         {
-            
+            Player newPlayer = Instantiate(player, _gameManager.enemyTiles[randomPos].transform.position, Quaternion.identity).GetComponent<Player>();
+            newPlayer.team = 1;
+            newPlayer.currentTile = _gameManager.enemyTiles[randomPos];
+            _gameManager.players.Add(newPlayer);
         }
     }
 

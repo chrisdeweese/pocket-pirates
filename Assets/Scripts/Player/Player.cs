@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     public Tile currentTile;
     public List<Tile> moveSequence;
 
+    public int team = 0;
+
     [Header("Repair")]
     [SerializeField] float repairAmount = 0;
     private GameObject repairSliderOBJ;
@@ -27,7 +29,14 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        spriteRenderer.sprite = assetBundleLoader.playerSkinBundle.LoadAsset<Sprite>(assetBundleLoader.playerKey);
+        if (team == 0)
+        {
+            spriteRenderer.sprite = assetBundleLoader.playerSkinBundle0.LoadAsset<Sprite>(assetBundleLoader.playerKey0);
+        }
+        else
+        {
+            spriteRenderer.sprite = assetBundleLoader.playerSkinBundle1.LoadAsset<Sprite>(assetBundleLoader.playerKey1);
+        }
     }
 
     public void Move()
